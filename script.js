@@ -5,7 +5,7 @@
     
     errorMsg.style.display = "none"; 
     
-    if (u === "Luca" && p === "Kalicyanide") {
+    if (u === "Luca" && p === "KMNO4") {
         window.location.href = "home.html";
         return false;
     } else {
