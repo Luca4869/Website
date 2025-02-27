@@ -1,73 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>  
-  <meta charset="UTF-8">  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Login Page</title>  
-  <base href="./">  
-  <style>
-    body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #eef2f3;
-    }
-    .login-container {
-        background: white;
-        padding: 20px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        text-align: center;
-        width: 300px;
-    }
-    .login-container img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        margin-bottom: 10px;
-    }
-    input {
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-    .error {
-        color: red;
-        font-weight: bold;
-        display: none;
-    }
-    button {
-        background-color: #3498db;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        width: 100%;
-    }
-    button:hover {
-        background-color: #2980b9;
-    }
-  </style>
-</head>  
-<body>  
-    <div class="login-container">
-        <img src="https://w0.peakpx.com/wallpaper/198/1019/HD-wallpaper-senku-dr-stone-anime-dr-stone-dr-stone-goku-senku-senku-ishigami-silhouette-thumbnail.jpg" alt="User Avatar">
-        <h2>Log in</h2>
-        <form onsubmit="return login();">  
-            <label> username </label>  
-            <input type="text" id="username" name="username" placeholder="email@domain.com"> <br>  
-            <label> Password </label>  
-            <input type="password" id="pw" name="pw" placeholder="Password">  
-            <p class="error" id="error-msg">Incorrect Password</p>  
-            <button type="submit" id="ok" name="ok">Log in</button>  
-        </form>  
-    </div>
-<script src="script.js"></script>  
-</body>  
-</html>
+
+<head>    
+  <meta charset="UTF-8">    
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  <title>Document</title>    
+  <base href="./">    
+</head>    
+<body>    
+   <form>    
+   <label> Username: </label>    
+   <input type ="text" id="username" name="username"> <br>    
+   <label> password: </label>    
+   <input type ="password" id="pw" name="pw">    
+  
+   <button type="submit" id="ok" name="ok" onclick=login()> login </button>    
+   </form>    
+<script src="script.js"></script>  </body>    
+</html>)
