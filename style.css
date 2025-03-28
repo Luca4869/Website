@@ -2,3 +2,8 @@ html {
   height: 100%;
   width: 100%;
 }
+.phandau{color:yellow;background-color:black;text-align:center;padding:20px}
+.thucdon{float:left;color:blue;background-color:pink;text-align:center;padding:}
+.thucdon a{display:block;color:pink;background-color:blue;text-align:center}
+.thucdon a:hover{color:pink;background-color:blur;text-align:center}
+.noidung{color:purple;background-color:yellow}
